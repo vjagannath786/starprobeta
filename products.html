@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3d Card Effect</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./landing.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <main>
+        <div class="nav_bar">
+            <img src="./cover_logo.png" alt="logo">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="./products.html">Products</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+	<div class="swiper-container">
+	<div class="swiper-wrapper">
+	
+	    <div class="swiper-slide">
+        <div class="card">
+            <div class="sneaker">
+                <div class="parallelogram"></div>
+                <img src="./bottom_fresh.png" alt="adidas">
+				
+            </div>
+            <div class="info">
+                <h1 class="title">Bottom Fresh</h1>
+                <h3>Increases survival rate & ADG in nursery and cultural ponds</h3>
+                
+                <div class="quote">
+                    <button>Read more</button>
+                </div>
+				
+				
+            </div>
+        </div>
+		</div>
+		
+		<div class="swiper-slide">
+        <div class="card">
+            <div class="sneaker">
+                <div class="parallelogram"></div>
+                <img src="./cropped_mag_mineral.png" alt="adidas">
+            </div>
+            <div class="info">
+                <h1 class="title">Mag Mineral Pro</h1>
+                <h3>Reduces cramp and white muscle problem in Shrimps</h3>
+                
+                <div class="quote">
+                    <a href="product_detail.html"><button>Read more</button></a>
+                </div>
+            </div>
+        </div>
+		</div>
+		<div class="swiper-slide">
+        <div class="card">
+            <div class="sneaker">
+                <div class="parallelogram"></div>
+                <img src="./cropped sea mineral.png" alt="adidas">
+            </div>
+            <div class="info">
+                <h1 class="title">Sea Mineral Pro</h1>
+                <h3>Increases survival rate & ADG in nursery and cultural ponds</h3>
+                
+                <div class="quote">
+                    <button>Read more</button>
+                </div>
+            </div>
+        </div>
+		</div>
+		<div class="swiper-slide">
+        <div class="card">
+            <div class="sneaker">
+                <div class="parallelogram"></div>
+                <img src="./cropped_k mineral.png" alt="adidas">
+            </div>
+            <div class="info">
+                <h1 class="title">K Mineral Pro</h1>
+                <h3>Increases survival rate & ADG in nursery and cultural ponds</h3>
+                
+                <div class="quote">
+                    <button>Read more</button>
+                </div>
+            </div>
+        </div>
+		</div>
+		
+		
+		
+		
+		
+    </div>
+	<div class="swiper-pagination"></div>
+	</div>
+</main>
+	</div>
+	
+	
+	
+<script src="./app.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+	<!-- Initialize Swiper -->
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+        direction: 'horizontal',
+        slidesPerView: 1,
+        spaceBetween:10,
+        mousewheel: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+    });
+	</script>
+	
+</body>
+</html>

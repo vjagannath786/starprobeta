@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+    
+    display:flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+main{
+    min-height: 100vh;
+    background: radial-gradient(98.39% 311.01% at 1.61% 4.79%, #EEF8EE 0%, #294D4F 100%), #000000;
+}
+
+.product img{
+position: absolute;
+width:200px;
+left: 20%;
+top: 25%;
+background: url(cropped_mag_mineral.png);
+animation: 1s ease-in 0s 1 slideInFromLeft;
+}
+
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+
+
+
+.product h1{
+animation: 1s ease-in 0s 1 slideInFromRight;
+}
+.product h2{
+animation: 1s ease-in 0s 1 slideInFromRight;
+}
+.product h3{
+animation: 1s ease-in 0s 1 slideInFromRight;
+}
+.product h4{
+animation: 1s ease-in 0s 1 slideInFromRight;
+}
+
+.product button{
+animation: 1s ease-in-out 0s 1 slideInFromRight;
+}	
+	
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+
+
+
+
+
+.product h1{
+position: absolute;
+width: 604px;
+height: 107px;
+left: 700px;
+top: 150px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 72px;
+color: #ffffff;
+
+}
+
+
+
+.product h2{
+
+position: absolute;
+width: 306px;
+height: 83px;
+left: 700px;
+top: 260px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+
+color: #FFFFFF;
+}
+
+
+
+.product h3 {
+position: absolute;
+width: 456px;
+height: 219px;
+left: 700px;
+top: 320px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 36px;
+
+color: #FFFFFF;
+
+}
+
+
+
+.product h4{
+position: absolute;
+width: 481px;
+height: 177px;
+left: 700px;
+top: 550px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 36px;
+
+color: #FFFFFF;
+}
+
+
+.product button{
+position: absolute;
+width: 216px;
+height: 69px;
+left: 800px;
+top: 680px;
+
+background: #B5772A;
+border-radius: 20px;
+border:none;
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 45px;
+color: #E2F8F6;
+
+}
+
