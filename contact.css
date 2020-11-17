@@ -1,0 +1,50 @@
+main{
+
+    background: radial-gradient(24.99% 78.97% at 71.89% 72.04%, #A0B4B6 9.82%, rgba(255, 255, 255, 0) 95.83%), #ECF7F8;
+    min-height: 100vh;
+    
+}
+
+
+
+
+.contacts{
+   
+    
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+grid-gap: 3rem;
+min-height:80vh;
+justify-content: center;
+align-items: center;
+
+
+
+
+    
+}
+
+.box{  
+  border-radius: 20px;
+  padding: 50px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bolder;
+ 
+
+}
+
+
+
+
+.fas{
+    color: seagreen;
+    
+    
+    
+}

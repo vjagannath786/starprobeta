@@ -47,6 +47,8 @@ html{
     height: 100px;
     
     
+    
+    
 }
 
 .nav_bar > ul {
@@ -148,7 +150,8 @@ border-radius: 10px;
 
 #two{
     min-height: 100vh;
-    background: #33B7BC;
+    /*background: #33B7BC;*/
+    background: radial-gradient(24.99% 78.97% at 71.89% 72.04%, #A0B4B6 9.82%, rgba(255, 255, 255, 0) 95.83%), #ECF7F8;
 }
 
 
@@ -165,7 +168,7 @@ font-weight: normal;
 font-size: 36px;
 line-height: 54px;
 
-color: #ffffff;
+color: #000000;
 }
 
 .mission > h3 {
@@ -181,7 +184,7 @@ font-weight: normal;
 font-size: 36px;
 line-height: 54px;
 
-color: #FEF8F8;
+color: #000000;
 
 }
 
@@ -217,7 +220,7 @@ color: #FEF8F8;
 }
 
 .card-footer{
-    color: #ffffff;
+    color: #000000;
     
     background: none;
     font-size:24px;

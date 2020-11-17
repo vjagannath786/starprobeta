@@ -1,0 +1,19 @@
+main{
+    background: radial-gradient(24.99% 78.97% at 71.89% 72.04%, #A0B4B6 9.82%, rgba(255, 255, 255, 0) 95.83%), #ECF7F8;
+    min-height: 100vh;
+}
+
+
+.aboutus{
+    display: flex;       
+    width: 70%;
+    height: 10vh;
+    margin: auto;
+    margin-top: 20%;
+    max-width: 40%;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    
+}
